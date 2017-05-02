@@ -8,15 +8,15 @@
 		<h1>Register</h1>
 		<form>
 			<!--Name Fields-->
-			<label>First Name: <input type="text" name="fName" placeholder="John"></label>
-			<label>Last Name: <input type="text" name="lName" placeholder="Smith"></label><br>
+			<label>First Name: <input type="text" name="fName" placeholder="John" required></label>
+			<label>Last Name: <input type="text" name="lName" placeholder="Smith" required></label><br>
 			<!--Gender Fields-->
 			<label>Male <input type="radio" name="gender" value="male"></label>
 			<label>Female <input type="radio" name="gender" value="female"></label>
 			<label>Other <input type="radio" name="gender" value="other"></label><br>
 			<!--Login Fields-->
-			<label>Email: <input type="email" name="email" placeholder="Your Email"></label>
-			<label>Password: <input type="password" name="password" placeholder="Your Password"></label><br>
+			<label>Email: <input type="email" name="email" placeholder="Your Email" required></label>
+			<label>Password: <input type="password" name="password" placeholder="Your Password" maxlength="10" minlength="5" size="10"></label><br>
 			<!--Birthday Fields-->
 			<label>Birthday:
 				<select name="month">
