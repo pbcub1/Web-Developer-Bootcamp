@@ -1,0 +1,14 @@
+body {
+	font-size: 16px
+}
+
+h1 {
+	font-size: 2em;
+	font-family: georgia;
+	color: #444444;
+}
+
+p {
+	font-family: tahoma;
+	font-size: 1em;
+}
