@@ -6,9 +6,14 @@ h1 {
 	font-size: 2em;
 	font-family: georgia;
 	color: #444444;
+	text-align: center;
 }
 
 p {
 	font-family: tahoma;
 	font-size: 1em;
+}
+
+#unique {
+	text-decoration: underline;
 }
